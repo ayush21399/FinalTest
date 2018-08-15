@@ -19,7 +19,8 @@ let objects;
     // Display full name
     document.getElementsByClassName("display-6").innerHTML = "My name is " + myname.name(); 
 
-contacts[contacts.length] = mine;
+    //trying to get in array 
+     contacts[contacts.length] = mine;
 
         
 
