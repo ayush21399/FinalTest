@@ -1,10 +1,11 @@
 let objects;
 (function(){
     class Contact {
-        // your class definition goes here   
+        // your class definition goes here 
+          
     }
 
-function mine(first, last, cont, em) {
+    function mine(first, last, cont, em) {
         this.firstName = first;
         this.lastName = last;
         this.contact = cont;
@@ -15,8 +16,13 @@ function mine(first, last, cont, em) {
     }
 
     var myname = new mine("ayush", "patel", 1111111111, "ayush21031999@gmail.com");
-// Display full name
-document.getElementsByClassName("display-6").innerHTML = "My name is " + myname.name(); 
+    // Display full name
+    document.getElementsByClassName("display-6").innerHTML = "My name is " + myname.name(); 
+
+contacts[contacts.length] = mine;
+
+        
+
 
     objects.Contact = Contact;
 
